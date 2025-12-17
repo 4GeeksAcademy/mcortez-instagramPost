@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+}
+.main-content{    
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0;
+    background-color: white;
+}
+
+.headertitle{
+    display:flex;
+    justify-content: space-between;
+    height: 50px;    
+}
+
+.headertitle .htlogohtml5{
+    font-size: 40px;
+}
+
+.headertitle .htellipsis{
+    font-size: 40px;
+}
+
+.photocontent{
+    height: 400px;
+}
+
+.iconcontent{
+    height: 50px;
+}
+
+.footcontent{
+    height: 200px;
+}
+
