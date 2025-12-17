@@ -1,5 +1,7 @@
 body{
     background-color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: small;
 }
 .main-content{    
     width: 400px;
@@ -13,15 +15,34 @@ body{
 .headertitle{
     display:flex;
     justify-content: space-between;
-    height: 50px;    
+    height: 40px;
+    vertical-align: middle;    
 }
 
 .headertitle .htlogohtml5{
-    font-size: 40px;
+    font-size: 20px;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.headertitle .httexto{
+    justify-content: center;
+    padding: 0;
+}
+
+.headertitle .httexto p{
+    margin: 0;
+    padding: 0;
+}
+
+.parteizquierda{
+    display:flex;
+    justify-content: space-between;
+    padding: 0;    
 }
 
 .headertitle .htellipsis{
-    font-size: 40px;
+    font-size: 20px;
 }
 
 .photocontent{
@@ -31,7 +52,7 @@ body{
 .iconcontent{
     display:flex;
     justify-content: space-between;    
-    height: 50px;
+    height: 20px;
 }
 
 .footcontent{
